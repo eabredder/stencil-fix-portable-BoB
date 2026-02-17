@@ -32,27 +32,8 @@ This project is intended to be used with the original Stencil Fix Portable mecha
 - **XT60 Connectors** standardized connections for RC batteries and ESCs, reduce connector/wiring inside
 - **Power Switch** simplified through screw terminals
 - **80x20mm Outline**  with 3.2mm Mounting Holes to fit multiple screw types and heat set threaded inserts and drop-in to original design
+
 ---
-
-## Repository Layout
-
-```text
-/
-├─ hardware/
-│  ├─ kicad/                  # .kicad_pro/.kicad_sch/.kicad_pcb, libraries
-│  ├─ gerbers/                # manufacturing exports (optional)
-│  └─ docs/                   # schematics/PDFs/renders
-├─ firmware/
-│  └─ stencilFixQtPy/         # Arduino sketch + any local libs (BatteryMeter, etc.)
-├─ images/                    # photos, renders, wiring diagrams
-└─ README.md
-
-Assembled PCB (top): images/pcb_top.jpg
-Assembled PCB (bottom): images/pcb_bottom.jpg
-Installed in Stencil Fix Portable: images/installed.jpg
-Wiring overview: images/wiring.png
-OLED screen examples: images/oled_ui.jpg
-```
 
 ## **Hardware Overview**
 
