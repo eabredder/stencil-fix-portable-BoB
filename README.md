@@ -94,24 +94,24 @@ So at 12.6V max, ADC max voltage:
 
 ### **Connectors / Wiring**
 
-**J3** — BATTERY (XT60, female on PCB) - Connect your 3S LiPo here
+**J3** — BATTERY (XT60, female on PCB) - Connect 3S LiPo here
 
-**J5** — ESC POWER (XT60, male on PCB) - Connect your ESC power input here
+**J5** — ESC POWER (XT60, male on PCB) - Connect ESC power input here
 
-**J4** — SWITCH (2-pin terminal block) - Inline with the battery positive path (rocker switch pigtails)
+**J4** — SWITCH (2-pin screw terminal block) - Inline with the battery positive path (rocker switch pigtails)
 
-**J2** — ESC (3-pin):
+**J2** — ESC (3-pin)
 - ESC_IN PWM signal to ESC (servo µs)
 - +5V from ESC UBEC (through diode to board +5V rail)
 - GND
 
-**J1** — B10K POT (3-pin, GVS)
+**J1** — B10K POT (3-pin)
 - 3.3V
 - POT, wiper input
 - GND
 
 **I2C OLED**
-- SDA / SCL from the QtPy Stemma QT Connector
+- SDA / SCL from the QtPy STEMMA QT Connector
 - Address: 0x3C
 - Power: 3.3V
 
