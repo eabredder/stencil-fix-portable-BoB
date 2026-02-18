@@ -92,7 +92,7 @@ So at 12.6V max, ADC max voltage:
 ### **ESC 5V Protection (Schottky diode)**
 **D1** = BAT54 Schottky diode on the ESC’s 5V UBEC rail - used to prevent reverse-current/back-powering conditions between supplies. Expect a small forward voltage drop, typically a few hundred mV depending on load.
 
-### **Connectors / Wiring**.
+### **Connectors / Wiring**
 
 **J3** — BATTERY (XT60, female on PCB) - Connect your 3S LiPo here
 
