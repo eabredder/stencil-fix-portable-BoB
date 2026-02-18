@@ -40,7 +40,8 @@ This project is intended to be used with the original Stencil Fix Portable mecha
 ![StencilFix BoB v.03 3D View](images/v.03/top3D-Components-v.03.png) ![StencilFix BoB v.03 3D View](images/v.03/bottom3D-Components-v.03.png)
 
 ### **PCB Components**
-- MCU: [Adafruit QtPy SAMD21 (QtPy M0)](https://www.adafruit.com/qtpy)
+- MCU
+  - U1: [Adafruit QtPy SAMD21 (QtPy M0)](https://www.adafruit.com/qtpy)
 - Battery sense & filtering
   - R1: [300kΩ 0805 Resistor](https://a.co/d/0bcWREO8)
   - R2: [100kΩ 0805 Resistor](https://a.co/d/0bcWREO8)
