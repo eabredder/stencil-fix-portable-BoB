@@ -76,6 +76,8 @@ This project is intended to be used with the original Stencil Fix Portable mecha
 
 ## **Electrical Design Notes**
 
+![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-allClose_PCB.jpg)
+
 ### **Schematic**
 ![StencilFix BoB v.03 KiCad Schematic](images/v.03/schematic-v.03.png)
 
@@ -95,8 +97,6 @@ So at 12.6V max, ADC max voltage:
 
 ### **ESC 5V Protection (Schottky diode)**
 **D1** = BAT54 Schottky diode on the ESC’s 5V UBEC rail - used to prevent reverse-current/back-powering conditions between supplies. Expect a small forward voltage drop, typically a few hundred mV depending on load.
-
-![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-allClose_PCB.jpg)
 
 ### **Connectors / Wiring**
 
@@ -143,11 +143,11 @@ On boot, ESC is held at 1000 µs for 2 seconds, then control is enabled. While n
 
 ADC reads at 12-bit (0..4095), Mapped to 1100..1400 µs (then low-pass filtered), If filtered value < 1110 µs, output floors to 1000 µs (fan off), Vacuum % shown as: 1100..1400 µs → 0..100%
 
-![StencilFix BoB v.03 Display Off](images/v.03/display1.jpg)  ![StencilFix BoB v.03 Display On](images/v.03/display2.jpg)
-
 **Display**
 
 Vac bar with % (top row), Bat bar with % (second row, “Bat” blinks at low/critical), Bottom row: Fan: ON/OFF, Screen dims after 30 seconds of inactivity and wakes on pot movement or fan state change.
+
+![StencilFix BoB v.03 Display Off](images/v.03/display1.jpg)  ![StencilFix BoB v.03 Display On](images/v.03/display2.jpg)
 
 **Battery**
 
