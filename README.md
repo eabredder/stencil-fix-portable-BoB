@@ -39,7 +39,7 @@ This project is intended to be used with the original Stencil Fix Portable mecha
 
 ## **Hardware Overview**
 
-![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-allClose_PCB.png)
+![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-allClose_PCB.jpg)
 
 ![StencilFix BoB v.03 3D View](images/v.03/top3D-Components-v.03.png) 
 
