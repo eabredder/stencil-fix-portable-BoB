@@ -143,7 +143,7 @@ On boot, ESC is held at 1000 µs for 2 seconds, then control is enabled. While n
 
 ADC reads at 12-bit (0..4095), Mapped to 1100..1400 µs (then low-pass filtered), If filtered value < 1110 µs, output floors to 1000 µs (fan off), Vacuum % shown as: 1100..1400 µs → 0..100%
 
-![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-display1.jpg)  ![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-display2.jpg)
+![StencilFix BoB v.03 Display Off](images/v.03/display1.jpg)  ![StencilFix BoB v.03 Display On](images/v.03/display2.jpg)
 
 **Display**
 
