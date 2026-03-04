@@ -2,6 +2,8 @@
 
 A purpose-built **drop‑in PCB** for the **Stencil Fix Portable** vacuum stencil holder. This board replaces the original perfboard wiring with a compact, repeatable assembly, eliminating soldering any wires using common connectors using an **Adafruit QtPy SAMD21 (QtPy M0)**, a **B10K potentiometer** for vacuum control, a **128×32 SSD1306 OLED** for status, and a **30A ESC** driving an **A2212 BLDC motor**. The CAD files in this repository are updated to fit these changes. You can still use this with the original Stencil Fix Portable design and components, you may need to adjust the range of motor control (µs), arming procedure, without the OLED. The PCB outline is 80mm x 20mm, matching common perfboard layout and mounting.
 
+![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-case_PCB.png)
+
 ![StencilFix BoB v.03 3D View](images/v.03/3DView-Components-v.03.png)
 
 This project is intended to be used with the original Stencil Fix Portable mechanical design and overall concept from the upstream project: [**Stencil Fix Portable** by scheffield](https://github.com/scheffield/stencil-fix-portable). Our updates reflect using more commonly sourced hardware, simplifying the build, and lower cost components. See BOM for updated components and design decisions.
