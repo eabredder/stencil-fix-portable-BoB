@@ -39,8 +39,6 @@ This project is intended to be used with the original Stencil Fix Portable mecha
 
 ## **Hardware Overview**
 
-![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-allClose_PCB.jpg)
-
 ![StencilFix BoB v.03 3D View](images/v.03/top3D-Components-v.03.png) 
 
 ![StencilFix BoB v.03 3D View](images/v.03/bottom3D-Components-v.03.png)
@@ -97,6 +95,8 @@ So at 12.6V max, ADC max voltage:
 
 ### **ESC 5V Protection (Schottky diode)**
 **D1** = BAT54 Schottky diode on the ESC’s 5V UBEC rail - used to prevent reverse-current/back-powering conditions between supplies. Expect a small forward voltage drop, typically a few hundred mV depending on load.
+
+![StencilFix BoB v.03 3D View](images/v.03/stencilFixBoB-v.03-allClose_PCB.jpg)
 
 ### **Connectors / Wiring**
 
